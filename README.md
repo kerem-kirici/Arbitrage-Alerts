@@ -17,6 +17,7 @@ How this program runs.
 
 The program can be really functionalized with async programming or multithreading, so i am publishing the program when it is unfinished. I am open to advices. Thanks for your interest.
 
+Before using the program, make sure your chrome browser's version matches the version of chromium webdriver which is in the 'driver' folder.
 
 mail: kerem.kirici36@gmail.com
 ig: keremmkirici_
