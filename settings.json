@@ -1,0 +1,12 @@
+{
+    "AlertBounds": [
+        0.001,
+        0.003,
+        0.007,
+        0.01,
+        0.012
+    ],
+    "Market1": "trbinance",
+    "Market2": "btcturk",
+    "RequiredAlertInterval": 60
+}
