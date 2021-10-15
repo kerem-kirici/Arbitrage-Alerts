@@ -19,6 +19,16 @@ The program can be really functionalized with async programming or multithreadin
 
 Before using the program, make sure your chrome browser's version matches the version of chromium webdriver which is in the 'driver' folder.
 
+used libraries: 
+* tkinter
+* playsound
+* gtts
+* pandas
+* numpy
+* pillow
+* beautifulsoup
+* selenium
+
 mail: kerem.kirici36@gmail.com
 ig: keremmkirici_
 twitter: keremmkirici
