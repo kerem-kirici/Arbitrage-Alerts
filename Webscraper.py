@@ -179,16 +179,3 @@ class UsdScraper(Scraper):
 
     def __repr__(self):
         return self.id_name
-
-
-if __name__ == '__main__':
-    d = Driver(False)
-    s1 = UsdScraper(d)
-    s2 = BtcTurkScraper(d)
-    s1.refresh()
-    s1.refresh_prices()
-    print(s1.refreshed, s1.get_prices())
-    s2.refresh()
-    s2.refresh_prices()
-    print(s2.refreshed, s2.get_prices())
-    
