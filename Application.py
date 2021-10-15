@@ -19,6 +19,7 @@ class Application(tk.Tk):
     def __init__(self, headless=True, log=False, *args, **kwargs):
 
         self.console_display = log
+        self.headless = headless
         super().__init__(*args, **kwargs)
         self.title(APP_TITLE)
 
@@ -108,7 +109,7 @@ class Application(tk.Tk):
 
 
     def __set_backend(self):
-        self.backend_application = Backend(headless=False)
+        self.backend_application = Backend(headless=self.headless)
 
 
     def show_main_page(self):
