@@ -3,7 +3,7 @@ This Program sends alerts when there is an arbitrage opportunity according to th
 
 
 What is Arbitrage?
-Arbitrage is basically taking advantage of the difference in prices. I am definitely not an economist or something like that, but in my view it is like taking the apple from the market where it is low priced and selling the apple where it is high priced. 
+Arbitrage is basically taking advantage of the difference in prices. I am definitely not an economist or something like that, but in my view it is like taking the apple from the market where it is low priced and selling the apple where it is high priced. (For more information: https://en.wikipedia.org/wiki/Arbitrage)
 
 So what my program does is you set the markets you want to compare and then you set price limits. Program compares USDT/TRY prices and when the difference of them exceeds the limit you set, the program plays a sound saying difference is between the prices you decided. 
 
