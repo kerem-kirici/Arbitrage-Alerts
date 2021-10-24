@@ -21,7 +21,7 @@ Before using the program, make sure your chrome browser's version matches the ve
 
 used libraries: 
 * tkinter
-* playsound
+* playsound==1.2.2
 * gtts
 * pandas
 * numpy
